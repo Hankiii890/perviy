@@ -7,7 +7,7 @@ class Person:
     def __str__(self):
         return f"Имя сотрудника - {self.name}, фамилия сотрудника - {self.surname}, квалификация - {self.qualification}"
     def __del__(self):
-        print(f'До свидания, мистер {self.name} {self.surname}')
+        print(f'До свидания, мистер {self.name} {self.surname}. Будем ждать Вас снова!')
         del self
 if __name__ == '__main__':
     person_1 = Person('Кирилл', 'Шендерук', 4)
